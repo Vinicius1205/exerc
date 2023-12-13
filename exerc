@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exercicio 3daw</title>
+</head>
+<body>
+    <?php
+    $arq='arquivo.txt';
+    if(file_exists($arq)) 
+    {
+        $exibir=file_get_contents($nome_do_arquivo);
+        echo $exibir;
+    } else 
+      {
+        echo 'nao existe';
+      }
+    ?>
+</body>
+</html>
